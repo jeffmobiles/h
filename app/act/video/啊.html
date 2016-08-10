@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!-- If you'd like to support IE8 -->
+    <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <style type="text/css">
+        .my-video-dimensions{
+            width:100%;
+            height:600px;
+        }
+    </style>
+</head>
+
+<body>
+<video id="my-video" class="video-js" controls preload="auto" width="100%" height="264"
+       poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="./a.mp4" type='video/mp4'>
+    <!--<source src="MY_VIDEO.webm" type='video/webm'>-->
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+</video>
+<div class="vjs-poster" tabindex="-1" style="background-image: url('http://vjs.zencdn.net/v/oceans.png');"></div>
+<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+</body>
+</html>
